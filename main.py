@@ -5,7 +5,6 @@ from BoyerMoore import BoyerMoore
 
 def main(wanted_tape, full_tape, isPrint = False):
     """ 
-    Calculates the n-th Fibonacci number iteratively  
 
     >>> main("11123444445", "4445555444111234444454444444444441112344445")
     [10]
@@ -26,5 +25,5 @@ def main(wanted_tape, full_tape, isPrint = False):
 
 if __name__ == "__main__":
     doctest.testmod()
-    main("1132", "321412412123121132", True)
+    #main("1132", "321412412123121132", True)
     
